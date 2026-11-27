@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Knight Pilot · Game review</title><link rel="stylesheet" href="review.css"></head><body><main>
+<header><span class="eyebrow">KNIGHT PILOT / LOCAL REVIEW</span><h1>Learn from your last game.</h1><p>Paste your completed game's PGN or import a PGN file. Stockfish compares each move with a stronger alternative. Nothing is uploaded.</p></header>
+<section class="import"><label for="pgn">Game PGN</label><textarea id="pgn" placeholder="1. e4 e5 2. Nf3 Nc6 …" spellcheck="false"></textarea><label for="file">Or import a PGN file</label><input id="file" type="file" accept=".pgn,text/plain"><div class="actions"><button id="start">Review game</button><button id="cancel" disabled>Cancel</button><button id="export" disabled>Export results</button></div></section>
+<p id="progress" role="status">Ready. Reviews use 0.5 seconds of search per position, plus engine startup time.</p>
+<p class="note">Loss is estimated in pawn units from the moving side's perspective. Inaccuracy: ≥0.5; mistake: ≥1; blunder: ≥2. Short searches can miss tactics. These are review estimates, not an accuracy score or rating.</p>
+<div class="table-wrap"><table><thead><tr><th>Move</th><th>Played</th><th>Assessment</th><th>Estimated loss</th><th>Engine choice</th><th>What it does</th></tr></thead><tbody id="rows"></tbody></table></div>
+</main><script src="review.js"></script></body></html>
