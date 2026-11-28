@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Knight Pilot",
+  "name": "Chess.com cheat (Chrome extension)",
   "version": "1.4.1",
   "description": "Local Stockfish move suggestions and optional automatic moves on Chess.com boards.",
   "minimum_chrome_version": "116",
